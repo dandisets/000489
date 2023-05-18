@@ -7,9 +7,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 4145545703
+  numberOfFiles: 4
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9913
+    name: Bos taurus - Cattle
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
   The impact of the second phase amplitude (% to the first phase) on the electroporation
   efficiency (measured as YP emission) (Version draft) [Data set]. DANDI archive.
